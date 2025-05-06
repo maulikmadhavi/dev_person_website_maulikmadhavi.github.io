@@ -1,40 +1,37 @@
 title: Maulik Madhavi
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-    <p>
-        Maulik Madhavi has been associated with Speech signal processing-field since 2010. He received Ph.D. degree 
-        (Information and Communication Systems) from Dhirubhai Ambani Institute of Information and Communication 
-        Technology (DA-IICT), Gandhinagar, India in 2017. He received M.Tech (ICT) degree (Communication Systems 
-        specialization) from DA-IICT, Gandhinagar, India.
-    </p>
-    <p>
-        He was a part of Department of Electronics and Information Technology (DeITY), India sponsored consortium project, 
-        "Development of Prosodically Guided Phonetic Engine for Searching Speech Databases in Indian Languages" during 
-        April 2012 - June 2014 (2 years and three months). During his masters and doctoral studies at DA-IICT, he was 
-        teaching assistant/tutor at DA-IICT for eight different courses (August 2009-April 2012, July 2014-May 2017).
-    </p>
-    <p>
-        He was a research Fellow (Dec 2017-April 2021) at National University of Singapore (NUS). He has also mentored 7 
-        NUS graduate students for final year project (FYP) and 1 Master student. Please refer to this link for relevant 
-        materials. He was involved in several research projects spoken dialogue system for autonomous vehicle, speech 
-        recognition for health care.
-    </p>
-    <p>
-        Currently, he is Video Analytics Researcher at NCS Pte Ltd (April 2021-). He is currently working on several 
-        algorithms related to video analytics. He is also actively working in the research of generative AI related projects to improve the vision system. 
-        He is involve in in-house product no-code platform <a href="https://kaicc.kaisense.co">(kaicc)</a>, where he contributed in algorithm and model developements  for vision model training and inference. 
-    </p>
-    
-    <p>
-        He received IAPR (International Association for Pattern Recognition) Travel Scholarship for presenting our joint 
-        paper in International Conference on Biometrics, ICB'12, Delhi, India.
-    </p>    
-  <br><br>
-  <a href="https://www.linkedin.com/in/maulik-madhavi-25743b82/">View My LinkedIn Profile</a> 
-  <br><br>
+description: > 
+  <p>
+    Maulik Madhavi has been associated with Speech signal processing-field since 2010. He received Ph.D. degree 
+    (Information and Communication Systems) from Dhirubhai Ambani Institute of Information and Communication 
+    Technology (DA-IICT), Gandhinagar, India in 2017. He received M.Tech (ICT) degree (Communication Systems 
+    specialization) from DA-IICT, Gandhinagar, India.
+  </p>
+  <p>
+    He was a part of Department of Electronics and Information Technology (DeITY), India sponsored consortium project, 
+    “Development of Prosodically Guided Phonetic Engine for Searching Speech Databases in Indian Languages” during 
+    April 2012 - June 2014 (2 years and three months). During his masters and doctoral studies at DA-IICT, he was 
+    teaching assistant/tutor at DA-IICT for eight different courses (August 2009-April 2012, July 2014-May 2017).
+  </p>
+  <p>
+    He was a research Fellow (Dec 2017-April 2021) at National University of Singapore (NUS). He has also mentored 7 
+    NUS graduate students for final year project (FYP) and 1 Master student. Please refer to this link for relevant 
+    materials. He was involved in several research projects spoken dialogue system for autonomous vehicle, speech 
+    recognition for health care.
+  </p>
+  <p>
+    Currently, he is Video Analytics Researcher at NCS Pte Ltd (April 2021-). He is currently working on several 
+    algorithms related to video analytics. He is also actively working in the research of generative AI related projects to improve the vision system. 
+    He is involve in in-house product no-code platform <a href=https://kaicc.kaisense.co">(kaicc)</a>, where he contributed in algorithm and model developements for vision model training and [...]
+  </p>
+  <p>
+    He received IAPR (International Association for Pattern Recognition) Travel Scholarship for presenting our joint 
+    paper in International Conference on Biometrics, ICB'12, Delhi, India.
+  </p>
+  <a href="https://www.linkedin.com/in/maulik-madhavi-25743b82/">View My LinkedIn Profile</a>
   <a href="https://github.com/maulikmadhavi">View My GitHub Profile</a>
-  
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here

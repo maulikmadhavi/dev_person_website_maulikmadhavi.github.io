@@ -1,4 +1,4 @@
-## About Maulik Madhavi
+<!-- ## About Maulik Madhavi
 
 Maulik Madhavi has been associated with Speech signal processing-field since 2010. He received Ph.D. degree 
 (Information and Communication Systems) from Dhirubhai Ambani Institute of Information and Communication 
@@ -170,4 +170,4 @@ E-mail: maulikmadhavi[AT]gmail[DOT]com
 
 33. H. A. Patil, and **M. C. Madhavi**, ''Significance of magnitude and phase information via VTEO for humming based biometrics,'' in Proc. Int. Conf. on Biometrics (ICB), New Delhi, India, 2012, pp. 372-377.
 
-34. H. A. Patil, **M. C. Madhavi**, and K. K. Parhi,''Combining Evidence from Spectral and Source-Like Features for Person Recognition from Humming,'' in 12th Proc. Annual Conf. of Int. Speech Communication Association (ISCA), INTERSPEECH, Florence, Italy, August 27-31, 2011, pp. 369-372.
+34. H. A. Patil, **M. C. Madhavi**, and K. K. Parhi,''Combining Evidence from Spectral and Source-Like Features for Person Recognition from Humming,'' in 12th Proc. Annual Conf. of Int. Speech Communication Association (ISCA), INTERSPEECH, Florence, Italy, August 27-31, 2011, pp. 369-372. -->

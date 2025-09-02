@@ -1,42 +1,33 @@
 ## About Maulik Madhavi
 
-Maulik Madhavi has been associated with Speech signal processing-field since 2010. He received Ph.D. degree 
-(Information and Communication Systems) from Dhirubhai Ambani Institute of Information and Communication 
-Technology (DA-IICT), Gandhinagar, India in 2017. He received M.Tech (ICT) degree (Communication Systems 
-specialization) from DA-IICT, Gandhinagar, India.
+Maulik Madhavi has been associated with the speech signal processing field since 2010. He received a Ph.D. degree in Information and Communication Systems from the Dhirubhai Ambani Institute of Information and Communication Technology (DA‑IICT) in Gandhinagar, India, in 2017. He received an M.Tech. degree in ICT with a specialization in Communication Systems from DA‑IICT in Gandhinagar, India.
 
-He was a part of Department of Electronics and Information Technology (DeITY), India sponsored consortium project, 
-"Development of Prosodically Guided Phonetic Engine for Searching Speech Databases in Indian Languages" during 
-April 2012 - June 2014 (2 years and three months). During his masters and doctoral studies at DA-IICT, he was 
-teaching assistant/tutor at DA-IICT for eight different courses (August 2009-April 2012, July 2014-May 2017).
+He was part of the Department of Electronics and Information Technology (DeIT) sponsored consortium project “Development of a Prosodically Guided Phonetic Engine for Searching Speech Databases in Indian Languages” from April 2012 to June 2014 (two years and three months). During his master’s and doctoral studies at DA‑IICT, he served as a teaching assistant/tutor for eight different courses from August 2009 to April 2012 and again from July 2014 to May 2017.
 
-He was a research Fellow (Dec 2017-April 2021) at National University of Singapore (NUS). He has also mentored 7 
-NUS graduate students for final year project (FYP) and 1 Master student. Please refer to this link for relevant 
-materials. He was involved in several research projects spoken dialogue system for autonomous vehicle, speech 
-recognition for health care.
+He was a research fellow from December 2017 to April 2021 at the National University of Singapore (NUS). He also mentored seven NUS graduate students on their final‑year projects (FYPs) and one master’s student. Please refer to this link for relevant materials. He was involved in several research projects on spoken‑dialogue systems for autonomous vehicles and on speech recognition for healthcare.
 
-Currently, he is Video Analytics Researcher at NCS Pte Ltd (April 2021-). He is currently working on several 
-algorithms related to video analytics. He is also actively working in the research of generative AI related projects to improve the vision system. 
-He is involve in in-house product no-code platform [kaicc](https://kaicc.kaisense.co), where he contributed in algorithm and model developements for vision model training and inference.
+Since April 2021, he has worked as a video analytics researcher at NCS Pte. Ltd. He is actively researching generative‑AI projects aimed at improving vision systems. He is involved in the in‑house no‑code platform KaICC [kaicc](https://kaicc.kaisense.co)), where he has contributed to algorithms and model development for vision-model training and inference.
 
-He received IAPR (International Association for Pattern Recognition) Travel Scholarship for presenting our joint 
-paper in International Conference on Biometrics, ICB'12, Delhi, India.
+He received an IAPR (International Association for Pattern Recognition) travel scholarship for presenting a joint paper at the 2012 International Conference on Biometrics (ICB 2012) in Delhi, India.
 
 ## Research Interests
 - Spoken information retrieval
 - Applications of spoken language technology
 - Spoken language understanding
-- Vision Laguage System
-- Model optimization for inference speed and accuracy
+- Vision Language System
+- Deeplearning models optimization for inference speed and accuracy
 
 ## Research Keywords
 
-Speech signal processing, speech information retrieval, dialogue understanding, technology for spoken language 
-processing, feature indexing for large scale search.
+Speech signal processing, speech information retrieval, dialogue understanding, technology for spoken language processing, feature indexing for large scale search, visual perception via vision language models, Object detection, Image Recognition.
 
 ## Tools
 
-Bash, C++, Python, HTML/CSS, MATLAB, Git, Docker, kaldi, Deep learning frameworks (TensorFlow, PyTorch)
+- Programming Language: C++, Python, JS
+- Deeplearning: TensorFlow, PyTorch, Transformers
+- LLM: langchain, llamaindex, DSPy, vllm
+- Versioning: Git, mlflow, Tensorboard
+- Deployment: Docker, Kubernetes
 
 ## Contact
 

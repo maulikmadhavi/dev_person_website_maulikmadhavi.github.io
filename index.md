@@ -3,17 +3,8 @@ layout: default
 toc: true
 ---
 
-## Introduction
 
-Name: Maulik Madhavi
-E-mail: maulikmadhavi[AT]gmail[DOT]com
-GitHub: [maulikmadhavi](https://github.com/maulikmadhavi)
-LinkedIn: [maulik-madhavi-25743b82](https://www.linkedin.com/in/maulik-madhavi-25743b82/)
-Google Scholar: [Maulik Madhavi](https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en)
-ResearchGate: [Maulik Madhavi](https://www.researchgate.net/profile/Maulik-Madhavi)
-
-
-## About Maulik Madhavi
+## About Me
 
 Maulik Madhavi has been associated with the speech signal processing field since 2010. He received a Ph.D. degree in Information and Communication Systems from the Dhirubhai Ambani Institute of Information and Communication Technology (DA‑IICT) in Gandhinagar, India, in 2017. He received an M.Tech. degree in ICT with a specialization in Communication Systems from DA‑IICT in Gandhinagar, India.
 

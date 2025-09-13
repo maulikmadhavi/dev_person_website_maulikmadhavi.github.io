@@ -50,34 +50,32 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 - 📚 Google Scholar: https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en
 - 💼 LinkedIn: https://www.linkedin.com/in/maulik-madhavi-25743b82/
 - 🔬 ResearchGate: https://www.researchgate.net/profile/Maulik-Madhavi
-- 🌐 Personal Site: https://sites.google.com/site/maulikcmadhavi
 
 ## Research Projects
 
 ### 🚍🤖 Autonomous Bus Chatbot
-#### Brief Info:
-- 🧭 Assists onboard passengers with navigation and emergency queries
-- 🤖 Android application connected to a spoken‑dialogue system
-- 🔊 ASR interface and chatbot interface
+- 🧭 Provides real-time assistance to onboard passengers for navigation, route guidance, and emergency support, ensuring a safe and informed travel experience.
+- 🤖 Features an Android application seamlessly integrated with a spoken-dialogue system, enabling natural language interactions for passenger queries and requests.
+- 🔊 Incorporates advanced Automatic Speech Recognition (ASR) and chatbot interfaces to facilitate hands-free communication, allowing passengers to interact with the system using voice commands for information retrieval and problem resolution.
 
 #### Skills involvement:
-- API access
-- Server-client communication
-- Python- Flask server
-- Android UI-Client (basic Java under android studio)
-- Git/Github for version control across team
-- Flask server
+- Designed and implemented RESTful APIs for seamless communication between the Android client and backend server.
+- Developed a Python Flask server to handle real-time spoken-dialogue interactions and manage passenger queries.
+- Built the Android client UI using Java in Android Studio, ensuring intuitive user experience and robust connectivity with the backend.
+- Established efficient server-client communication protocols for reliable data exchange and low-latency responses.
+- Utilized Git and GitHub for collaborative version control, enabling smooth teamwork and codebase management.
+- Integrated and maintained the Flask server for scalable deployment and continuous improvement of chatbot functionalities.
 
 ### Wakeup-word in Android UI
-- Push-to-talk replacement
-- CNN with tensorflow Lite inside Android source code
-- Source code is available at: [https://github.com/maulikmadhavi/Hellobus_tflite](https://github.com/maulikmadhavi/Hellobus_tflite)
-- Dockerfile
+- Implemented a wakeup-word feature to replace traditional push-to-talk interaction, enabling hands-free activation within the Android application.
+- Integrated a Convolutional Neural Network (CNN) model using TensorFlow Lite directly in the Android source code for efficient on-device inference.
+- Developed and open-sourced the complete implementation, available at: [Hellobus_tflite GitHub repository][hellobusTfliteRepo], including model training scripts and Android integration.
+- Provided a Dockerfile for streamlined environment setup and reproducible builds, facilitating easy deployment and testing.
 
 #### Skills involvement:
-- Deep learning on mobile
-- Porting trained model on computer to mobile
-- Customizing the wakeupword with hundreds of examples
+- Developed and optimized deep learning models for efficient deployment on mobile devices, focusing on low-latency inference and minimal resource consumption.
+- Ported trained neural network models from desktop environments to mobile platforms, ensuring compatibility and robust performance using TensorFlow Lite.
+- Designed a customizable wakeup-word system by collecting and curating hundreds of audio samples, enabling personalized activation and improved accuracy for diverse user profiles.
 
 ## Publications
 
@@ -211,3 +209,6 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 Remove above link if you don't want to attibute
+
+
+[hellobusTfliteRepo]: https://github.com/maulikmadhavi/Hellobus_tflite

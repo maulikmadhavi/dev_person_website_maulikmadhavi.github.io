@@ -52,11 +52,12 @@ h2 {
 ul {
     list-style: none;
     margin-bottom: 20px;
+    color: #9cdcfe;    
 }
 
 ul li::before {
     content: '•';
-    color: #003366;
+    color: #9cdcfe;
     font-weight: bold;
     display: inline-block; 
     width: 1em;

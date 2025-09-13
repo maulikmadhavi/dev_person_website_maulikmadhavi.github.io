@@ -2,7 +2,12 @@ title: Maulik Madhavi
 logo: "/images/mypic.jpg?raw=true" # your photo (or logo) here
 description: > 
   <a href="https://www.linkedin.com/in/maulik-madhavi-25743b82/">View My LinkedIn Profile</a>
+  &nbsp;|&nbsp;
   <a href="https://github.com/maulikmadhavi">View My GitHub Profile</a>
+  &nbsp;|&nbsp;
+  <a href="https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en">View My Google Scholar Profile</a>
+  &nbsp;|&nbsp;
+  <a href="https://www.researchgate.net/profile/Maulik-Madhavi">View My ResearchGate Profile</a>
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

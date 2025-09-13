@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 h3 {
-     color: #01468c;
+     color: #569cd6;
     margin-bottom: 15px;
     /* border-bottom: 2px solid #003366; */
     padding-bottom: 5px;
@@ -52,16 +52,16 @@ h2 {
 ul {
     list-style: none;
     margin-bottom: 20px;
-    color: #9cdcfe;    
+    color: antiquewhite;
 }
 
 ul li::before {
     content: '•';
-    color: #9cdcfe;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
+      color: antiquewhite;
 }
 
 ul li {
@@ -69,6 +69,7 @@ ul li {
     margin-top: 10px; /* Added margin-top */
     margin-left: 20px; /* Added margin-left */
     font-size: 1.1em;
+    color: antiquewhite;
 }
 
 /* Paragraph styling */

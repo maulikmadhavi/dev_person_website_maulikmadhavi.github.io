@@ -9,7 +9,10 @@ description: >
   &nbsp;|&nbsp;
   <a href="https://www.researchgate.net/profile/Maulik-Madhavi">View My ResearchGate Profile</a>
 
-remote_theme: pages-themes/minimal@v0.2.0
+theme: minimal-mistakes-jekyll
+# OR if using the remote theme (without bundler):
+remote_theme: mmistakes/minimal-mistakes@4.24.2
 plugins:
-  - jekyll-remote-theme
+  - jekyll-scholar
+  - jekyll-feed
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here

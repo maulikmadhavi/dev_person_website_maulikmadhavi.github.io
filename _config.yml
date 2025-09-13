@@ -13,6 +13,5 @@ description: >
 # OR if using the remote theme (without bundler):
 remote_theme: mmistakes/minimal-mistakes@4.24.2
 plugins:
-  - jekyll-scholar
-  - jekyll-feed
+  - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here

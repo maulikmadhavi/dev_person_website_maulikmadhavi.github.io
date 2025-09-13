@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## About Maulik Madhavi
 
 Maulik Madhavi has been associated with the speech signal processing field since 2010. He received a Ph.D. degree in Information and Communication Systems from the Dhirubhai Ambani Institute of Information and Communication Technology (DA‑IICT) in Gandhinagar, India, in 2017. He received an M.Tech. degree in ICT with a specialization in Communication Systems from DA‑IICT in Gandhinagar, India.

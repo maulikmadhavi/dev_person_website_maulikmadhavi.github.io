@@ -19,34 +19,40 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 
 ## Research Keywords
 
-Speech signal processing, speech information retrieval, dialogue understanding, technology for spoken language processing, feature indexing for large scale search, visual perception via vision language models, Object detection, Image Recognition.
+🗣️ Speech signal processing • 🔎 Speech information retrieval • 💬 Dialogue understanding • 🧠 Technology for spoken language processing • 🧭 Feature indexing for large‑scale search • 👁️ Vision‑language perception • 🎯 Object detection • 🖼️ Image recognition
 
 ## Tools
-
-- Programming Language: C++, Python, JS
-- Deeplearning: TensorFlow, PyTorch, Transformers
-- LLM: langchain, llamaindex, DSPy, vllm
-- Versioning: Git, mlflow, Tensorboard
-- Deployment: Docker, Kubernetes
+- Programming Languages: ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+- ML Frameworks: ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+- LLM Tools: ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-512BD4?style=for-the-badge&logo=llama&logoColor=white)
+![DSPy](https://img.shields.io/badge/DSPy-1584F6?style=for-the-badge&logo=dspy&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-2D2D2D?style=for-the-badge&logo=vllm&logoColor=FF5252)
+- ML Tools: ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![TensorBoard](https://img.shields.io/badge/TensorBoard-FF6F00?style=for-the-badge&logo=tensorboard&logoColor=white)
+- Deployment Tools: ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+- Web Frameworks: ![Flask](https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571.svg?style=for-the-badge&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 
 ## Contact
-
-E-mail: maulikmadhavi[AT]gmail[DOT]com
+✉️ E‑mail: maulikmadhavi[AT]gmail[DOT]com
 
 ## Links
-- [Github](https://github.com/maulikmadhavi)
-- [Google Scholar](https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en)
-- [LinkedIn](https://www.linkedin.com/in/maulik-madhavi-25743b82/)
-- [ResearchGate](https://www.researchgate.net/profile/Maulik-Madhavi)
-- [Personal Site](https://sites.google.com/site/maulikcmadhavi)
+- 💻 GitHub: https://github.com/maulikmadhavi
+- 📚 Google Scholar: https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en
+- 💼 LinkedIn: https://www.linkedin.com/in/maulik-madhavi-25743b82/
+- 🔬 ResearchGate: https://www.researchgate.net/profile/Maulik-Madhavi
+- 🌐 Personal Site: https://sites.google.com/site/maulikcmadhavi
 
 ## Research Projects
 
-### Autonomous Bus Chatbot
+### 🚍🤖 Autonomous Bus Chatbot
 #### Brief Info:
-- To assist onboard passenger for navigation, emergency query request
-- Android application that is connected to spoken dialogue system
-- ASR interface and chatbot interface
+- 🧭 Assists onboard passengers with navigation and emergency queries
+- 🤖 Android application connected to a spoken‑dialogue system
+- 🔊 ASR interface and chatbot interface
 
 #### Skills involvement:
 - API access

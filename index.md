@@ -1,5 +1,6 @@
 ---
 layout: default
+toc: true
 ---
 
 ## About Maulik Madhavi

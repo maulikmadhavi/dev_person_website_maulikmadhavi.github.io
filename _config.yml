@@ -9,7 +9,7 @@ description: >
   &nbsp;|&nbsp;
   <a href="https://www.researchgate.net/profile/Maulik-Madhavi">View My ResearchGate Profile</a>
 
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 # OR if using the remote theme (without bundler):
 remote_theme: mmistakes/minimal-mistakes@4.24.2
 plugins:

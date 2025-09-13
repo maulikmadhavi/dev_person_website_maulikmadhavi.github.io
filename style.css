@@ -76,6 +76,7 @@ p {
     margin-bottom: 20px;
     line-height: 1.7;
     color: antiquewhite;
+    margin: 10px;
 }
 
 /* Links styling */
@@ -104,4 +105,10 @@ footer {
     text-align: center;
     font-size: 0.9em;
     color: #666;
+}
+
+
+body{
+    margin: 10px;
+    color:antiquewhite;
 }

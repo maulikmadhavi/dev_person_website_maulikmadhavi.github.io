@@ -11,7 +11,7 @@ description: >
 
 # theme: minimal-mistakes-jekyll
 # OR if using the remote theme (without bundler):
-remote_theme: mmistakes/minimal-mistakes@4.24.2
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here

@@ -1,0 +1,29 @@
+---
+---
+
+// Import the theme's base styles
+@import "time-machine";
+
+// Reduce side whitespace by widening the main content container
+// Keep responsiveness: full width on small screens, wider max-width on larger
+
+// The Time Machine theme uses a centered container; override its max-width
+.container, .page, .post, main, .wrapper {
+  max-width: 1100px; // default is narrower; increase to reduce side gutters
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;  // keep a little inner padding
+  padding-right: 1rem;
+}
+
+// On very wide screens, allow a bit more width but keep readability
+@media (min-width: 1400px) {
+  .container, .page, .post, main, .wrapper {
+    max-width: 1200px;
+  }
+}
+
+// Optional: tighten article width inside the timeline card if present
+article, .post-content {
+  max-width: none; // let it use the container width
+}

@@ -9,24 +9,14 @@ description: >
   &nbsp;|&nbsp;
   <a href="https://www.researchgate.net/profile/Maulik-Madhavi">View My ResearchGate Profile</a>
 
-remote_theme: pages-themes/minima@v0.2.0
-plugins:
-  - jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID herehavi
-logo: "/images/mypic.jpg?raw=true" # your photo (or logo) here
-description: > 
-  <a href="https://www.linkedin.com/in/maulik-madhavi-25743b82/">View My LinkedIn Profile</a>
-  &nbsp;|&nbsp;
-  <a href="https://github.com/maulikmadhavi">View My GitHub Profile</a>
-  &nbsp;|&nbsp;
-  <a href="https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en">View My Google Scholar Profile</a>
-  &nbsp;|&nbsp;
-  <a href="https://www.researchgate.net/profile/Maulik-Madhavi">View My ResearchGate Profile</a>
-
-# theme: minimal-mistakes-jekyll
-# OR if using the remote theme (without bundler):
+# Use GitHub Pages official Time Machine theme
 remote_theme: pages-themes/time-machine@v0.2.0
+
 plugins:
   - jekyll-remote-theme
+
+# Analytics (optional)
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+
+# Site options
 show_download_button: true

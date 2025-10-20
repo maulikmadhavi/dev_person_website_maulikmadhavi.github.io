@@ -1,0 +1,30 @@
+# Bundler
+Gemfile.lock
+vendor/
+bundle/
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment files
+.env
+.env.local
+
+# Build artifacts
+*.log
+*.pid
+node_modules/

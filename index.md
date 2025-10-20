@@ -25,7 +25,14 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 
 ## Research Keywords
 
-🗣️ Speech signal processing • 🔎 Speech information retrieval • 💬 Dialogue understanding • 🧠 Technology for spoken language processing • 🧭 Feature indexing for large‑scale search • 👁️ Vision‑language perception • 🎯 Object detection • 🖼️ Image recognition
+- 🗣️ Speech signal processing 
+- 🔎 Speech information retrieval (spoken term detection)
+- 💬 Dialogue understanding 
+- 🧠 Technology for spoken language processing 
+- 🧭 Feature indexing for large‑scale search 
+- 👁️ Vision‑language perception 
+- 🎯 Object detection 
+- 🖼️ Image recognition
 
 ## Tools
 - Programming Languages: ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)

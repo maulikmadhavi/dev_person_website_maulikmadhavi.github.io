@@ -6,15 +6,16 @@ toc: true
 
 ## About Me
 
-Maulik Madhavi has been associated with the speech signal processing field since 2010. He received a Ph.D. degree in Information and Communication Systems from the Dhirubhai Ambani Institute of Information and Communication Technology (DA‑IICT) in Gandhinagar, India, in 2017. He received an M.Tech. degree in ICT with a specialization in Communication Systems from DA‑IICT in Gandhinagar, India.
+Maulik Madhavi has been associated with the speech signal processing field since 2010. He received a Ph.D. degree in Information and Communication Systems from the Dhirubhai Ambani Institute of Information and Communication Technology (DA‑IICT) in Gandhinagar, India, in 2017. He completed an M.Tech. degree in ICT with a specialization in Communication Systems from DA‑IICT in Gandhinagar, India.
 
-He was part of the Department of Electronics and Information Technology (DeIT) sponsored consortium project “Development of a Prosodically Guided Phonetic Engine for Searching Speech Databases in Indian Languages” from April 2012 to June 2014 (two years and three months). During his master’s and doctoral studies at DA‑IICT, he served as a teaching assistant/tutor for eight different courses from August 2009 to April 2012 and again from July 2014 to May 2017.
+He was part of the Department of Electronics and Information Technology (DeIT) sponsored consortium project "Development of a Prosodically Guided Phonetic Engine for Searching Speech Databases in Indian Languages" from April 2012 to June 2014. During his master's and doctoral studies at DA‑IICT, he served as a teaching assistant and tutor for eight courses from August 2009 to April 2012 and July 2014 to May 2017.
 
-He was a research fellow from December 2017 to April 2021 at the National University of Singapore (NUS). He also mentored seven NUS graduate students on their final‑year projects (FYPs) and one master’s student. Please refer to this link for relevant materials. He was involved in several research projects on spoken‑dialogue systems for autonomous vehicles and on speech recognition for healthcare.
+He was a research fellow at the National University of Singapore (NUS) from December 2017 to April 2021, where he mentored eight graduate and master's students on their final‑year projects. His research focused on spoken‑dialogue systems for autonomous vehicles and speech recognition for healthcare applications.
 
-Since April 2021, he has worked as a video analytics researcher at NCS Pte. Ltd. He is actively researching generative‑AI projects aimed at improving vision systems. He is involved in the in‑house no‑code platform KaICC [kaicc](https://kaicc.kaisense.co)), where he has contributed to algorithms and model development for vision-model training and inference.
+Since April 2021, he has worked as a video analytics researcher at NCS Pte. Ltd., focusing on generative AI projects for vision systems. He contributes to the in‑house no‑code platform KaICC, developing algorithms and models for vision-model training and inference.
 
-He received an IAPR (International Association for Pattern Recognition) travel scholarship for presenting a joint paper at the 2012 International Conference on Biometrics (ICB 2012) in Delhi, India.
+He received an IAPR (International Association for Pattern Recognition) travel scholarship for presenting at the 2012 International Conference on Biometrics (ICB 2012) in Delhi, India.
+
 
 ## Research Interests
 - Spoken information retrieval
@@ -34,41 +35,7 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 - 🎯 Object detection 
 - 🖼️ Image recognition
 
-
-<!-- Load Mermaid from CDN -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
-<script>
-// Initialize Mermaid when the page loads
-mermaid.initialize({ startOnLoad: true, theme: "default" });
-</script>
-<style>
-body { font-family: Arial, sans-serif; margin: 20px; }
-.mermaid { background: #fafafa; border-radius: 8px; padding: 16px; }
-</style>
-
-<div class="mermaid">
-gantt
-    title Skills Timeline
-    dateFormat  YYYY
-    axisFormat  %Y
-    section Programming Languages
-    C++         :done,    2010, 2015
-    Python      :done,    2014, 2025
-    JavaScript  :done,    2022, 2025
-    section ML Frameworks
-    MATLAB      :done,    2007, 2020
-    Numpy/Pandas/Matplotlib :done, 2015, 2025
-    TensorFlow  :done,    2016, 2022
-    PyTorch     :done,    2016, 2025
-    OpenCV/Transformers      :done,    2021, 2025
-    section LLM Tools
-    LangChain   :done,    2023, 2025
-    vLLM/DSPY/n8n       :done,    2025, 2025
-    section Web Frameworks
-    Flask       :done,    2017, 2025
-    FastAPI     :done,    2020, 2025
-    Gradio      :done,    2021, 2025
-</div>
+{% include skills-timeline.html %}
 
 ## Tools
 - Programming Languages: ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)

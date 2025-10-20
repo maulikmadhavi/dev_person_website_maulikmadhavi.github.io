@@ -1,0 +1,34 @@
+<!-- Load Mermaid from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  // Initialize Mermaid when the page loads
+  mermaid.initialize({ startOnLoad: true, theme: "default" });
+</script>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  .mermaid { background: #fafafa; border-radius: 8px; padding: 16px; }
+</style>
+
+<div class="mermaid">
+gantt
+    title Skills Timeline
+    dateFormat  YYYY
+    axisFormat  %Y
+    section Programming Languages
+    C++         :done,    2010, 2015
+    Python      :done,    2014, 2025
+    JavaScript  :done,    2022, 2025
+    section ML Frameworks
+    MATLAB      :done,    2007, 2020
+    Numpy/Pandas/Matplotlib :done, 2015, 2025
+    TensorFlow  :done,    2016, 2022
+    PyTorch     :done,    2016, 2025
+    OpenCV/Transformers      :done,    2021, 2025
+    section LLM Tools
+    LangChain   :done,    2023, 2025
+    vLLM/DSPY/n8n       :done,    2025, 2025
+    section Web Frameworks
+    Flask       :done,    2017, 2025
+    FastAPI     :done,    2020, 2025
+    Gradio      :done,    2021, 2025
+</div>

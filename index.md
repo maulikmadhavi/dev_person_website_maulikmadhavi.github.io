@@ -20,7 +20,7 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 - Spoken information retrieval
 - Applications of spoken language technology
 - Spoken language understanding
-- Vision Language System
+- Vision language system
 - Deeplearning models optimization for inference speed and accuracy
 
 ## Research Keywords
@@ -34,20 +34,64 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 - 🎯 Object detection 
 - 🖼️ Image recognition
 
+
+<!-- Load Mermaid from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+// Initialize Mermaid when the page loads
+mermaid.initialize({ startOnLoad: true, theme: "default" });
+</script>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; }
+.mermaid { background: #fafafa; border-radius: 8px; padding: 16px; }
+</style>
+
+<div class="mermaid">
+gantt
+    title Skills Timeline
+    dateFormat  YYYY
+    axisFormat  %Y
+    section Programming Languages
+    C++         :done,    2010, 2015
+    Python      :done,    2014, 2025
+    JavaScript  :done,    2022, 2025
+    section ML Frameworks
+    MATLAB      :done,    2007, 2020
+    Numpy/Pandas/Matplotlib :done, 2015, 2025
+    TensorFlow  :done,    2016, 2022
+    PyTorch     :done,    2016, 2025
+    OpenCV/Transformers      :done,    2021, 2025
+    section LLM Tools
+    LangChain   :done,    2023, 2025
+    vLLM/DSPY/n8n       :done,    2025, 2025
+    section Web Frameworks
+    Flask       :done,    2017, 2025
+    FastAPI     :done,    2020, 2025
+    Gradio      :done,    2021, 2025
+</div>
+
 ## Tools
 - Programming Languages: ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 - ML Frameworks: ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 - LLM Tools: ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-512BD4?style=for-the-badge&logo=llama&logoColor=white)
 ![DSPy](https://img.shields.io/badge/DSPy-1584F6?style=for-the-badge&logo=dspy&logoColor=white)
 ![vLLM](https://img.shields.io/badge/vLLM-2D2D2D?style=for-the-badge&logo=vllm&logoColor=FF5252)
-- ML Tools: ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-FF3E00?style=for-the-badge&logo=n8n&logoColor=white)
+- ML Tools: 
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![TensorBoard](https://img.shields.io/badge/TensorBoard-FF6F00?style=for-the-badge&logo=tensorboard&logoColor=white)
-- Deployment Tools: ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Fiftyone](https://img.shields.io/badge/Fiftyone-2D2D2D?style=for-the-badge&logo=fiftyone&logoColor=white)
+- Deployment Tools: ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-- Web Frameworks: ![Flask](https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571.svg?style=for-the-badge&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
+- Web Frameworks: ![Flask](https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571.svg?style=for-the-badge&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Gradio](https://img.shields.io/badge/Gradio-FF4B4B.svg?style=for-the-badge&logo=gradio&logoColor=white)
 
 ## Contact
 ✉️ E‑mail: maulikmadhavi[AT]gmail[DOT]com
@@ -84,10 +128,39 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 - Ported trained neural network models from desktop environments to mobile platforms, ensuring compatibility and robust performance using TensorFlow Lite.
 - Designed a customizable wakeup-word system by collecting and curating hundreds of audio samples, enabling personalized activation and improved accuracy for diverse user profiles.
 
+
+
+<!-- Tools Tab Content -->
+
+## Tools
+- Programming Languages: ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+- ML Frameworks: ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+- LLM Tools: ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-512BD4?style=for-the-badge&logo=llama&logoColor=white)
+![DSPy](https://img.shields.io/badge/DSPy-1584F6?style=for-the-badge&logo=dspy&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-2D2D2D?style=for-the-badge&logo=vllm&logoColor=FF5252)
+![n8n](https://img.shields.io/badge/n8n-FF3E00?style=for-the-badge&logo=n8n&logoColor=white)
+- ML Tools: 
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![TensorBoard](https://img.shields.io/badge/TensorBoard-FF6F00?style=for-the-badge&logo=tensorboard&logoColor=white)
+![Fiftyone](https://img.shields.io/badge/Fiftyone-2D2D2D?style=for-the-badge&logo=fiftyone&logoColor=white)
+- Deployment Tools: ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+- Web Frameworks: ![Flask](https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571.svg?style=for-the-badge&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Gradio](https://img.shields.io/badge/Gradio-FF4B4B.svg?style=for-the-badge&logo=gradio&logoColor=white)
+
+
+
+---
 ## Publications
 
 ### Journal Publications
-
 1. **M. C. Madhavi** and H. A. Patil, "Vocal Tract Length Normalization using a Gaussian mixture model framework for query-by-example spoken term detection," in *Computer Speech & Language,* Elsevier, vol. 58, pp. 175-202, November 2019.
 
 2. **M. C. Madhavi**, and H. A. Patil, "Design of Mixture of GMMs for Query-by-Example Spoken Term Detection," in *Computer Speech & Language, Elsevier*, vol. 52, pp. 41-55, November 2018.

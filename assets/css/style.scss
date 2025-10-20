@@ -8,10 +8,7 @@
 // Keep responsiveness: full width on small screens, wider max-width on larger
 
 // The Time Machine theme uses a centered container; override its max-width
-.container{
-  max-width: 1100px;
-}
-.page, .post, main, .wrapper {
+.container, .page, .post, main, .wrapper {
   max-width: 1100px; // default is narrower; increase to reduce side gutters
   margin-left: auto;
   margin-right: auto;

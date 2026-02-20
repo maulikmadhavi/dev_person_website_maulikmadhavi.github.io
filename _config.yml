@@ -1,22 +1,13 @@
 title: Maulik Madhavi
-logo: "/images/mypic.jpg?raw=true" # your photo (or logo) here
-description: > 
-  <a href="https://www.linkedin.com/in/maulik-madhavi-25743b82/">View My LinkedIn Profile</a>
-  &nbsp;|&nbsp;
-  <a href="https://github.com/maulikmadhavi">View My GitHub Profile</a>
-  &nbsp;|&nbsp;
-  <a href="https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en">View My Google Scholar Profile</a>
-  &nbsp;|&nbsp;
-  <a href="https://www.researchgate.net/profile/Maulik-Madhavi">View My ResearchGate Profile</a>
+logo: "/images/mypic.jpg?raw=true"
+description: >
+  <a href="https://www.linkedin.com/in/maulik-madhavi-25743b82/">LinkedIn</a> |
+  <a href="https://github.com/maulikmadhavi">GitHub</a> |
+  <a href="https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en">Google Scholar</a> |
+  <a href="https://www.researchgate.net/profile/Maulik-Madhavi">ResearchGate</a>
 
-# Use GitHub Pages official Time Machine theme
+# Theme
 remote_theme: pages-themes/time-machine@v0.2.0
 
 plugins:
   - jekyll-remote-theme
-
-# Analytics (optional)
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
-
-# Site options
-show_download_button: true

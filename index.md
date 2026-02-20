@@ -6,15 +6,15 @@ toc: true
 
 ## About Me
 
-Maulik Madhavi has been associated with the speech signal processing field since 2010. He received a Ph.D. degree in Information and Communication Systems from the Dhirubhai Ambani Institute of Information and Communication Technology (DA‑IICT) in Gandhinagar, India, in 2017. He completed an M.Tech. degree in ICT with a specialization in Communication Systems from DA‑IICT in Gandhinagar, India.
+Maulik Madhavi has worked in speech signal processing since 2010. He earned his Ph.D. in Information and Communication Systems from DA-IICT, Gandhinagar, India, in 2017, and completed his M.Tech. in ICT (Communication Systems) at the same institute.
 
-He was part of the Department of Electronics and Information Technology (DeIT) sponsored consortium project "Development of a Prosodically Guided Phonetic Engine for Searching Speech Databases in Indian Languages" from April 2012 to June 2014. During his master's and doctoral studies at DA‑IICT, he served as a teaching assistant and tutor for eight courses from August 2009 to April 2012 and July 2014 to May 2017.
+He contributed to a DeIT-sponsored national research project on prosodically guided phonetic search for Indian language speech databases and served as a teaching assistant for eight undergraduate and graduate courses during his master’s and doctoral studies.
 
-He was a research fellow at the National University of Singapore (NUS) from December 2017 to April 2021, where he mentored eight graduate and master's students on their final‑year projects. His research focused on spoken‑dialogue systems for autonomous vehicles and speech recognition for healthcare applications.
+From 2017 to 2021, he was a Research Fellow at the National University of Singapore, mentoring graduate students and conducting research on spoken-dialogue systems for autonomous vehicles and speech recognition for healthcare.
 
-Since April 2021, he has worked as a video analytics researcher at NCS Pte. Ltd., focusing on generative AI projects for vision systems. He contributes to the in‑house no‑code platform KaICC, developing algorithms and models for vision-model training and inference.
+Since 2021, he has been a Video Analytics Researcher at NCS Pte. Ltd., working on generative AI for vision systems. He contributes to the in-house no-code platform KaICC, developing algorithms for vision model training and inference.
 
-He received an IAPR (International Association for Pattern Recognition) travel scholarship for presenting at the 2012 International Conference on Biometrics (ICB 2012) in Delhi, India.
+He received an IAPR travel scholarship to present his work at the International Conference on Biometrics (ICB 2012) in New Delhi, India.
 
 
 ## Research Interests
@@ -26,14 +26,14 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 
 ## Research Keywords
 
-- 🗣️ Speech signal processing 
-- 🔎 Speech information retrieval (spoken term detection)
-- 💬 Dialogue understanding 
-- 🧠 Technology for spoken language processing 
-- 🧭 Feature indexing for large‑scale search 
-- 👁️ Vision‑language perception 
-- 🎯 Object detection 
-- 🖼️ Image recognition
+-  Speech signal processing 
+-  Speech information retrieval (spoken term detection)
+-  Dialogue understanding 
+-  Technology for spoken language processing 
+-  Feature indexing for large‑scale search 
+-  Vision‑language perception 
+-  Object detection 
+- s Image recognition
 
 {% include skills-timeline.html %}
 
@@ -64,10 +64,10 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 ✉️ E‑mail: maulikmadhavi[AT]gmail[DOT]com
 
 ## Links
-- 💻 GitHub: https://github.com/maulikmadhavi
-- 📚 Google Scholar: https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en
-- 💼 LinkedIn: https://www.linkedin.com/in/maulik-madhavi-25743b82/
-- 🔬 ResearchGate: https://www.researchgate.net/profile/Maulik-Madhavi
+-  GitHub: https://github.com/maulikmadhavi
+-  Google Scholar: https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en
+-  LinkedIn: https://www.linkedin.com/in/maulik-madhavi-25743b82/
+-  ResearchGate: https://www.researchgate.net/profile/Maulik-Madhavi
 
 ## Research Projects
 
@@ -206,4 +206,3 @@ He received an IAPR (International Association for Pattern Recognition) travel s
 ---
 
 
-[hellobusTfliteRepo]: https://github.com/maulikmadhavi/Hellobus_tflite

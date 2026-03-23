@@ -1,5 +1,5 @@
 title: Maulik Madhavi
-logo: "/images/mypic.jpg?raw=true"
+logo: "/images/mypic.jpg"
 description: >
   <a href="https://www.linkedin.com/in/maulik-madhavi-25743b82/">LinkedIn</a> |
   <a href="https://github.com/maulikmadhavi">GitHub</a> |
@@ -11,3 +11,4 @@ remote_theme: pages-themes/time-machine@v0.2.0
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag

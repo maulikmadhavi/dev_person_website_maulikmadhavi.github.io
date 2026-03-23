@@ -33,7 +33,7 @@ He received an IAPR travel scholarship to present his work at the International 
 -  Feature indexing for large‑scale search 
 -  Vision‑language perception 
 -  Object detection 
-- s Image recognition
+-  Image recognition
 
 {% include skills-timeline.html %}
 

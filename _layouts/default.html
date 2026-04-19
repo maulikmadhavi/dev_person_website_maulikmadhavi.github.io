@@ -7,10 +7,129 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
     <style>
-      .site-nav { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 14px; }
-      .site-nav a { font-weight: 600; text-decoration: none; padding: 4px 0; border-bottom: 2px solid transparent; }
-      .site-nav a:hover { border-bottom-color: currentColor; }
-      .site-nav a.active { border-bottom-color: currentColor; }
+      :root {
+        --accent: #2563eb;
+        --border: rgba(0,0,0,0.1);
+        --surface: rgba(0,0,0,0.03);
+        --muted: rgba(0,0,0,0.6);
+        --nav-bg: rgba(255,255,255,0.92);
+      }
+      .dark-theme {
+        --border: rgba(255,255,255,0.14);
+        --surface: rgba(255,255,255,0.04);
+        --muted: rgba(255,255,255,0.65);
+        --nav-bg: rgba(20,20,20,0.92);
+      }
+
+      /* Sticky nav with active state */
+      .site-nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 12px 0;
+        margin-top: 12px;
+        background: var(--nav-bg);
+        backdrop-filter: blur(6px);
+        border-bottom: 1px solid var(--border);
+      }
+      .site-nav a {
+        font-weight: 600;
+        text-decoration: none;
+        padding: 4px 0;
+        border-bottom: 2px solid transparent;
+      }
+      .site-nav a:hover { border-bottom-color: var(--accent); }
+      .site-nav a.active { border-bottom-color: var(--accent); color: var(--accent); }
+
+      /* Hero */
+      .hero {
+        display: flex;
+        gap: 28px;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 32px 0 8px;
+      }
+      .hero-photo {
+        width: 140px; height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid var(--border);
+      }
+      .hero-text { flex: 1; min-width: 260px; }
+      .hero-text h1 { margin: 0 0 8px; font-size: 2rem; }
+      .hero-text .tagline { font-size: 1.1rem; margin: 0 0 18px; color: var(--muted); }
+
+      /* CTA buttons */
+      .cta-row { display: flex; gap: 10px; flex-wrap: wrap; }
+      .cta-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        border: 2px solid var(--accent);
+        color: var(--accent);
+        transition: opacity 0.15s;
+      }
+      .cta-btn:hover { opacity: 0.85; }
+      .cta-btn.primary { background: var(--accent); color: #fff; }
+
+      /* Stats strip */
+      .stats {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        padding: 18px 0;
+        margin: 28px 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      .stat { flex: 1; min-width: 130px; }
+      .stat-num { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+      .stat-label { font-size: 0.9rem; color: var(--muted); }
+
+      /* Card grid */
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+        margin: 18px 0;
+      }
+      .card {
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+      }
+      .card h3 { margin-top: 0; margin-bottom: 8px; }
+      .card p { margin: 6px 0; }
+      .card .meta { font-size: 0.9rem; color: var(--muted); }
+
+      /* Closing CTA */
+      .cta-block {
+        text-align: center;
+        padding: 36px 20px;
+        margin: 40px 0 24px;
+        border-radius: 10px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+      }
+      .cta-block h2 { margin-top: 0; }
+
+      /* Inline next-step links */
+      .next-link { font-weight: 600; text-decoration: none; color: var(--accent); }
+      .next-link:hover { text-decoration: underline; }
+
+      /* Footer socials */
+      footer .social-links {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
     </style>
   </head>
   <body id="theme-body" class="light-theme">
@@ -20,35 +139,39 @@
           <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
           <button id="theme-toggle" class="theme-toggle" title="Toggle Dark/Light Mode">🌙</button>
         </div>
-        {% if site.logo %}<img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 10%;"/>{% endif %}
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
         <nav class="site-nav">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/about/' | relative_url }}">About</a>
-          <a href="{{ '/projects/' | relative_url }}">Projects</a>
-          <a href="{{ '/publications/' | relative_url }}">Publications</a>
-          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+          <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+          <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
+          <a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a>
+          <a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a>
+          <a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a>
         </nav>
       </header>
       <section>{{ content }}</section>
       <footer>
         <p>&copy; 2026 {{ site.title }}. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://github.com/maulikmadhavi">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=BLLXxDoAAAAJ&hl=en">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/maulik-madhavi-25743b82/">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/Maulik-Madhavi">ResearchGate</a>
+        </div>
       </footer>
     </div>
     <script>
       const toggle = document.getElementById('theme-toggle');
       const body = document.getElementById('theme-body');
       const theme = localStorage.getItem('theme') || 'light-theme';
-      
+
       body.className = theme;
-      
+
       toggle.addEventListener('click', () => {
         const newTheme = body.classList.contains('light-theme') ? 'dark-theme' : 'light-theme';
         body.className = newTheme;
         localStorage.setItem('theme', newTheme);
         toggle.textContent = newTheme === 'dark-theme' ? '☀️' : '🌙';
       });
-      
+
       toggle.textContent = theme === 'dark-theme' ? '☀️' : '🌙';
     </script>
   </body>

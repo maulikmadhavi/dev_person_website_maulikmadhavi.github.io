@@ -39,19 +39,6 @@ title: Home
   </div>
 </div>
 
-## Featured projects
-
-<div class="cards">
-  <div class="card">
-    <h3>🚍🤖 Autonomous Bus Chatbot</h3>
-    <p class="meta">NUS Singapore · 2018–2020</p>
-    <p>Spoken-dialogue system for an autonomous bus — ASR, wakeup-word CNN for on-device inference, and RASA-based dialogue management.</p>
-    <p><a class="next-link" href="{{ '/projects/' | relative_url }}">Read more →</a></p>
-  </div>
-</div>
-
-<p><a class="next-link" href="{{ '/projects/' | relative_url }}">See all projects →</a></p>
-
 ## Recent publications
 
 - B. Sharma, **M. Madhavi**, X. Zhou, H. Li. "Exploring teacher-student learning approach for multi-lingual speech-to-intent classification," *IEEE ASRU*, 2021.
@@ -59,9 +46,3 @@ title: Home
 - X. Qian, **M. Madhavi**, Z. Pan, J. Wang, H. Li. "Multi-target DoA estimation with an audio-visual fusion mechanism," *ICASSP*, 2021.
 
 <p><a class="next-link" href="{{ '/publications/' | relative_url }}">See all publications →</a></p>
-
-<div class="cta-block">
-  <h2>Interested in collaborating?</h2>
-  <p>Always open to discussing research, projects, or ideas in speech, vision, and multimodal AI.</p>
-  <a href="mailto:maulikmadhavi@gmail.com" class="cta-btn primary">Email me</a>
-</div>

@@ -1,7 +1,7 @@
 # Bundler
-Gemfile.lock
 vendor/
 bundle/
+.bundle/
 
 # Jekyll
 _site/
